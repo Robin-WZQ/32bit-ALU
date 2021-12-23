@@ -12,11 +12,8 @@
 这里我设计了一个具有8种运算功能的32位ALU，实现6种逻辑运算和3种算术运算，并能够产生运算结果和其表示，ALU通过4根控制线ALU_OP[3:0]来选择其8种功能。
 
 ####逻辑运算
-ALU_OP	ALU功能	功能说明
-0000	and	按位与
-0001	or	按位或
-0010	xor	按位异或
-0011	nor	按位或非
-0110	<	若A<B，则输出1
-0111	<<	B逻辑左移A位
+![image](https://user-images.githubusercontent.com/60317828/147259387-6572f061-d6b4-4e02-8a36-4cff7b0e4b66.png)
 
+![image](https://user-images.githubusercontent.com/60317828/147259419-34c3b6b2-5361-4abb-9f51-fd910c295353.png)
+
+![image](https://user-images.githubusercontent.com/60317828/147259443-ab7f72cf-aa10-4d78-a077-02c93b0e6105.png)
