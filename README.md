@@ -29,3 +29,17 @@ verilog语言，32位ALU加法器，支持加法并行方式和串行方式，6�
 在实验过程中，我发现在 always 语句下的条件分支结构不允许调用module 实例，所以为了尽可能提高 ALU 的处理速度，我对较为复杂的实例用任务进行改写，即主要应用了“task”方法。这里也简单叙述一下其特点：
 
 任务（task）可以用来描述共同的代码段，并在模块内任意位置被调用，让代码更加的直观易读。任务可以调用函数和任务，可以作为一条单独的语句出现语句块中。需要强调的是，任务在执行的时候是按语句顺序执行的，所以需要在编写相关功能时考虑到。
+
+## 实验结果
+
+### 逻辑运算
+
+![image](https://user-images.githubusercontent.com/60317828/149645018-d4b1d41c-a4eb-4212-9de9-e7b31c9bb10b.png)
+
+### 并行运算
+
+![image](https://user-images.githubusercontent.com/60317828/149645024-3cf86b18-885e-45fd-aca1-9ae079569267.png)
+
+### 串行运算
+
+![image](https://user-images.githubusercontent.com/60317828/149645032-c4f35adb-b8b2-4ab4-86ca-e158791f652f.png)
