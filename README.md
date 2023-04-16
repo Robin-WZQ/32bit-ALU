@@ -1,7 +1,5 @@
 # 32bit-ALU
 
-https://github.com/Robin-WZQ/BIT-AI-Review
-
 verilog语言，32位ALU加法器，支持加法并行方式和串行方式，6种运算（算术运算和逻辑运算），能够输出结果和4个标志位
 
 ## 实验内容
